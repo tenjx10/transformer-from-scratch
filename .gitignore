@@ -1,0 +1,19 @@
+# python
+__pycache__/
+*.pyc
+.venv/
+.pytest_cache/
+*.egg-info/
+
+# datasets and tokenized data (see README for download steps)
+data/
+
+# training outputs; the released model lives in checkpoints/tinystories
+runs/
+*.pt
+!checkpoints/tinystories/model.pt
+
+.DS_Store
+
+# generated learning curves (scripts/plot.py)
+plots/
